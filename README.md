@@ -4,7 +4,7 @@
 Official PyTorch implementation of our four-stage STR framework, that most existing STR models fit into. <br>
 Using this framework allows for the module-wise contributions to performance in terms of accuracy, speed, and memory demand, under one consistent set of training and evaluation datasets. <br>
 Such analyses clean up the hindrance on the current comparisons to understand the performance gain of the existing modules. <br><br>
-<img src="./figures/trade-off.png" width="1000" title="trade-off">
+<img src="./figures/training_throughput.png" width="1000" title="training-throughput">
 
 
 ## Getting Started
