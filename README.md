@@ -10,8 +10,7 @@ iii) Partially half-precision training <br><br>
 <img src="./figures/training_throughput.png" width="600" title="training-throughput">
 
 
-## Getting Started
-### Dependency
+## Dependency
 - This work was tested with PyTorch 1.5.0a0, CUDA 10.2, python 3.6 and Ubuntu 18.04.
 - This work was evaluated with Amazon p3.2xlarge instance (8 vCPU, 61GiB, NVIDIA Tesla V100 with 16GB HBM)
 - requirements : lmdb, pillow, torchvision, nltk, natsort
@@ -20,7 +19,8 @@ pip3 install lmdb pillow torchvision nltk natsort
 ```
 
 
-#### Training throughput results
+## Training throughput results
+The final result is evaluated the increase in throughput based on the best model of the paper (TPS-ResNet-BiLSTM-Attn), but the applied optimization technique can obtain general performance improvement regardless of the type of model. <br><br>
 <img src="./figures/training_summary.png" width="1000" title="training-throughput">
 
 
