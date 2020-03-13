@@ -1,8 +1,7 @@
 # Training throughput optimization for four-stage STR framework
-| [paper](https://arxiv.org/abs/1904.01906) |
 
 This project is a private project for the Naver Clova intern deep learning test. <br>
-To optimize throughput, the following method was applied in this project based on the existing four-stage STR. <br>
+To optimize throughput, the following method was applied in this project based on the existing four-stage STR ([paper](https://arxiv.org/abs/1904.01906)). <br>
 
   i) Maximizing batch size in GPU <br>
  ii) Fusing convolution and batch normalization layer <br>
