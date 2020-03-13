@@ -21,7 +21,7 @@ pip3 install lmdb pillow torchvision nltk natsort
 
 
 #### Training throughput results
-<img src="./figures/throughput_summary.png" width="600" title="training-throughput">
+<img src="./figures/training_summary.png" width="600" title="training-throughput">
 
 
 ## License
