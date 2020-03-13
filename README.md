@@ -5,7 +5,7 @@ To optimize throughput, the following method was applied in this project based o
 
   i) Maximizing batch size in GPU <br>
  ii) Fusing convolution and batch normalization layer <br>
-iii) Partially half-precision training <br><br>
+iii) Partially half-precision training (TPS, BiLSTM, Attn) <br><br>
 <img src="./figures/training_throughput.png" width="600" title="training-throughput">
 
 
