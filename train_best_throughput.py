@@ -179,11 +179,7 @@ def train(opt):
 
         torch.cuda.synchronize()
         with torch.cuda.stream(s):
-            if opt.use_amp:
-                with amp.scale_loss(cost, optimizer) as scaled_loss:
-                    scaled_loss.backward()
-            else:
-                cost.backward()
+            cost.backward()
         torch.cuda.synchronize()
 
 #        torch.nn.utils.clip_grad_norm_(model.parameters(), opt.grad_clip)  # gradient clipping with 5 (Default)
